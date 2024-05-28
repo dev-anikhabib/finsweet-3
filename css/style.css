@@ -1,0 +1,511 @@
+/* ===== COMMON CSS PART START ===== */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul,li{
+    list-style: none;
+    display: inline-block;
+}
+a{
+    text-decoration: none;
+}
+/* ===== COMMON CSS PART END ===== */
+
+/* ===== NAVBAR PART CSS START ===== */
+.navbar{
+    background: #1C1E53;
+}
+.navbar-expand-lg .navbar-nav .nav-link {
+    color: #BBBBCB;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 28px;
+    transition: all linear .4s;
+    padding-right: 32px;
+}
+.navbar-expand-lg .navbar-nav .nav-link:hover {
+    color: white;
+}
+.navbar-expand-lg .navbar-nav .nav-item:last-child .nav-link {
+    padding-right: 0;
+}
+.navbar .nav-btn button{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 28px;
+    color: white;
+    padding: 16px 48px;
+    border-radius: 41px;
+    background: transparent;
+    border: 2px solid rgba(244, 246, 252, 0.2);
+    margin-left: 48px;
+    transition: all linear .4s;
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+.navbar .nav-btn button:hover{
+    background: #FCD980;
+    color: black;
+}
+/* ===== NAVBAR PART CSS END ===== */
+
+/* ===== BANNER PART CSS START ===== */
+#banner{
+    padding-top: 128px;
+    padding-bottom: 128px;
+}
+#banner .banner-left h6{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 32px;
+    color: #282938;
+    padding-bottom: 8px;
+}
+#banner .banner-left h2{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 54px;
+    line-height: 74px;
+    color: #282938;
+    padding-bottom: 31px;
+}
+#banner .banner-left p{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: rgba(40, 41, 56, 0.7);
+    text-align: justify;
+    width: 484px;
+}
+
+/* ===== BANNER PART CSS END ===== */
+
+
+/* ===== BANNER PART CSS START ===== */
+
+#goal .goal-main{
+    padding: 80px;
+    background: #F4F5F5;
+}
+#goal .goal-left h5{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 28px;
+    color: #282938;
+    padding-bottom: 4px;
+}
+#goal .goal-left h3{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 38px;
+    line-height: 56px;
+    color: #282938;
+    padding-bottom: 16px;
+}
+#goal .goal-left p{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: rgba(40, 41, 56, 0.7);
+    width: 515px;
+}
+#goal .goal-right h3{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 38px;
+    color: #282938;
+    padding-bottom: 16px;
+    padding-top: 48px;
+}
+#goal .goal-right p{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: rgba(40, 41, 56, 0.7);
+    width: 515px;
+}
+#goal .goal-img img{
+    width: 100%;
+}
+
+/* ===== BANNER PART CSS END ===== */
+
+
+/* ===== PROCESS PART CSS START ===== */
+
+#process{
+    padding-top: 128px;
+    padding-bottom: 128px;
+}
+#process .process-title h3{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 64px;
+    color: #282938;
+    padding-bottom: 48px;
+}
+#process .process-detail .pd-design{
+    display: flex;
+}
+#process .process-detail .pd-design .pd-round{
+    height: 24px;
+    width: 24px;
+    border-radius: 50%;
+    background: #2405F2;
+    margin-right: 24px;
+}
+#process .process-detail h4{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    color: #282938;
+    padding-bottom: 8px;
+    padding-top: 32px;
+}
+#process .process-detail p{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: rgba(40, 41, 56, 0.7);
+}
+/* ===== PROCESS PART CSS END ===== */
+
+
+/* ===== MISSION PART CSS START ===== */
+#mission{
+    background: #EEF4FA;
+    padding-top: 128px;
+    padding-bottom: 128px;
+}
+#mission .mission-text h6{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 28px;
+    color: #282938;
+    padding-top: 54px;
+    padding-bottom: 16px;
+}
+#mission .mission-text h2{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 38px;
+    line-height: 56px;
+    color: #282938;
+}
+#mission .mission-text p{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: rgba(40, 41, 56, 0.7);
+    padding-top: 16px;
+    width: 623px;
+}
+#mission .mission-bottom{
+    padding-top: 96px;
+}
+#mission .mb-text{
+    padding-top: 53px;
+    padding-left: 24px;
+}
+#mission .mb-text h6{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 28px;
+    color: #282938;
+    padding-bottom: 16px;
+}
+#mission .mb-text h3{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 38px;
+    line-height: 56px;
+    color: #282938;
+    padding-bottom: 16px;
+}
+#mission .mb-text p{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: rgba(40, 41, 56, 0.7);
+    width: 623px;
+}
+
+/* ===== MISSION PART CSS END ===== */
+
+/* ===== BENEFIT PART CSS START ===== */
+
+#benefit{
+    padding-top: 128px;
+    padding-bottom: 128px;
+}
+#benefit .benefit-title h3{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 64px;
+    color: #282938;
+    padding-bottom: 48px;
+}
+#benefit .benefits{
+    padding: 50px 32px 48px 48px;
+    background: #F4F6FC;
+}
+#benefit .benefits h4{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    color: #282938;
+    padding-top: 26px;
+    padding-bottom: 12px;
+}
+#benefit .benefits p{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: rgba(40, 41, 56, 0.7);
+    width: 324px;
+}
+#benefit .b-bottom{
+    padding-top: 48px;
+}
+#benefit .b-recomandation h4{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 38px;
+    line-height: 56px;
+    color: #282938;
+}
+#benefit .b-recomandation p{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: rgba(40, 41, 56, 0.7);
+}
+#benefit .b-logo img{
+    padding-top: 28px;
+    padding-left: 49px;
+}
+/* ===== BENEFIT PART CSS END ===== */
+
+
+/* ===== TEAM PART CSS START ===== */
+
+#team{
+    padding-top: 128px;
+    padding-bottom: 128px;
+    background: #F4F6FC;
+}
+#team .team-title h3{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 64px;
+    color: #282938;
+    padding-bottom: 48px;
+}
+#team .cards{
+    padding: 48px 64px 12px 64px;
+    background: #FFFFFF;
+}
+#team .cards h4{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    color: #1D2130;
+    padding-top: 30px;
+    padding-bottom: 2px;
+}
+#team .cards p{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: rgba(29, 33, 48, 0.7);
+}
+#team .card-img .card-profile{
+    position: relative;
+}
+#team .card-img .card-profile .card-overlay{
+    background: linear-gradient(348.37deg, #5239FA 17.97%, rgba(255, 255, 255, 0) 79.2%);
+    height: 0;
+    width: 168px;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 0;
+    left: 5px;
+    transition: all linear .4s;
+}
+#team .card-img .card-profile:hover .card-overlay{
+    height: 168px;
+}
+#team .card-img .card-profile .card-overlay .card-icon{
+    display: flex;
+    position: absolute;
+    top: 122px;
+    left: 55px;
+}
+#team .card-img .card-profile .card-overlay .card-icon i{
+    color: #ffffff;
+    font-size: 13px;
+    padding-right: 11px;
+}
+#team .card-img .card-profile .card-overlay .card-icon a{
+    padding-right: 3px;
+}
+#team .card-img .card-profile .card-overlay .card-icon a:last-child{
+    padding-right: 0;
+}
+/* ===== TEAM PART CSS END ===== */
+
+/* ===== FOOTER PART CSS START ===== */
+footer{
+    padding-top: 96px;
+    background: #1C1E53;
+}
+footer .footer-left p{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 28px;
+    color: rgba(255, 255, 255, 0.8);
+    padding-top: 22px;
+    width: 399px;
+}
+footer .footer-right h3{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 64px;
+    color: #FFFFFF;
+    padding-bottom: 14px;
+}
+footer .footer-right p{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: rgba(244, 246, 252, 0.8);
+    width: 399px;
+    padding-bottom: 28px;
+}
+footer .footer-right .fr-icon{
+    display: flex;
+}
+footer .footer-right .fr-icon i{
+    color: #FFFFFF;
+    padding-right: 26px;
+}
+footer .footer-right .fr-icon i:last-child{
+    padding-right: 0px;
+}
+footer .footer-contact{
+    padding-top: 17px;
+    background: #FCD980;
+    display: flex;
+    padding-left: 37px;
+    padding-right: 137px;
+}
+footer .footer-contact h5{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 32px;
+    color: #282938;
+    padding-bottom: 1px;
+}
+footer .footer-contact p{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: rgba(40, 41, 56, 0.8);
+}
+footer .footer-contact .fc-mail{
+    padding-right: 29px;
+}
+/* ===== FOOTER PART CSS END ===== */
+
+/* ===== FOOTER LINK PART CSS START ===== */
+#footer-link{
+    padding-top: 32px;
+    padding-bottom: 13px;
+}
+#footer-link h6{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 28px;
+    color: #282938;
+}
+#footer-link ul{
+    display: flex;
+    justify-content: flex-end;
+}
+#footer-link ul li{
+    padding-left: 32px;
+}
+#footer-link ul li:last-child{
+    padding-left: 0px;
+}
+#footer-link ul li a{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 28px;
+    color: #282938;
+}
+/* ===== FOOTER LINK PART CSS END ===== */
